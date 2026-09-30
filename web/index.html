@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ATS Neo4j Job Recommendations</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="blob b1"></div>
+  <div class="blob b2"></div>
+  <div class="blob b3"></div>
+  <main>
+    <header class="glass hero">
+      <p class="eyebrow">Recommendation engine</p>
+      <h1>Outlier job listings</h1>
+      <p id="who" class="sub">Loading analysis…</p>
+      <div class="stats">
+        <div><b id="sRec">0</b><span>Recommended outliers</span></div>
+        <div><b id="sBest">0</b><span>Best ATS score</span></div>
+        <div><b id="sSkills">0</b><span>Skills in graph</span></div>
+        <div><b id="sBand">5–10%</b><span>Score band</span></div>
+      </div>
+    </header>
+
+    <section class="glass controls">
+      <input id="q" type="search" placeholder="Filter by title or company…">
+      <select id="company"><option value="">All companies</option></select>
+      <label>Min ATS score <b id="rv">55</b>
+        <input id="ratio" type="range" min="30" max="100" value="55">
+      </label>
+      <label>Max missing skills <b id="mv">2</b>
+        <input id="maxm" type="range" min="1" max="4" value="2">
+      </label>
+    </section>
+
+    <section class="glass intro">
+      <h2>Strict outliers only</h2>
+      <p>
+        These roles sit in the top 5–10% ATS score band and miss only a few
+        <em>non-critical</em> skills. Perfect matches are excluded so the list
+        highlights the highest-value upskilling targets from your resume graph.
+      </p>
+    </section>
+
+    <section id="jobs" class="grid" aria-live="polite"></section>
+
+    <section class="glass skills-panel">
+      <h2>Skill tree from resume</h2>
+      <div id="tree"></div>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>

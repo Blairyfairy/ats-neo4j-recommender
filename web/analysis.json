@@ -1,0 +1,2235 @@
+{
+ "generated": "2026-09-30T19:22:06.631091+00:00",
+ "source": "offline",
+ "candidate": "Blair Page",
+ "thresholds": {
+  "min_score": 55.0,
+  "max_missing": 2,
+  "pct_low": 5.0,
+  "pct_high": 10.0
+ },
+ "skills": [
+  {
+   "name": "cpanel",
+   "category": "Credentials",
+   "source": "credential",
+   "evidence": 8
+  },
+  {
+   "name": "disaster recovery",
+   "category": "Credentials",
+   "source": "credential",
+   "evidence": 8
+  },
+  {
+   "name": "imunify360",
+   "category": "Credentials",
+   "source": "credential",
+   "evidence": 1
+  },
+  {
+   "name": "linux",
+   "category": "Credentials",
+   "source": "credential",
+   "evidence": 30
+  },
+  {
+   "name": "networking",
+   "category": "Credentials",
+   "source": "credential",
+   "evidence": 19
+  },
+  {
+   "name": "nosql",
+   "category": "Credentials",
+   "source": "credential",
+   "evidence": 2
+  },
+  {
+   "name": "plesk",
+   "category": "Credentials",
+   "source": "credential",
+   "evidence": 9
+  },
+  {
+   "name": "rhel",
+   "category": "Credentials",
+   "source": "credential",
+   "evidence": 3
+  },
+  {
+   "name": "security",
+   "category": "Credentials",
+   "source": "credential",
+   "evidence": 41
+  },
+  {
+   "name": "clustering",
+   "category": "Implied",
+   "source": "implied",
+   "evidence": 3
+  },
+  {
+   "name": "sql",
+   "category": "Implied",
+   "source": "implied",
+   "evidence": 1
+  },
+  {
+   "name": "ansible",
+   "category": "Mentioned in experience",
+   "source": "text",
+   "evidence": 6
+  },
+  {
+   "name": "docker",
+   "category": "Mentioned in experience",
+   "source": "text",
+   "evidence": 12
+  },
+  {
+   "name": "kubernetes",
+   "category": "Mentioned in experience",
+   "source": "text",
+   "evidence": 9
+  },
+  {
+   "name": "magento",
+   "category": "Mentioned in experience",
+   "source": "text",
+   "evidence": 15
+  },
+  {
+   "name": "node.js",
+   "category": "Mentioned in experience",
+   "source": "text",
+   "evidence": 9
+  },
+  {
+   "name": "php",
+   "category": "Mentioned in experience",
+   "source": "text",
+   "evidence": 18
+  },
+  {
+   "name": "terraform",
+   "category": "Mentioned in experience",
+   "source": "text",
+   "evidence": 2
+  },
+  {
+   "name": "woocommerce",
+   "category": "Mentioned in experience",
+   "source": "text",
+   "evidence": 11
+  },
+  {
+   "name": "wordpress",
+   "category": "Mentioned in experience",
+   "source": "text",
+   "evidence": 21
+  },
+  {
+   "name": "aws",
+   "category": "Professional Snapshot / Infrastructure",
+   "source": "matrix",
+   "evidence": 42
+  },
+  {
+   "name": "liquid web",
+   "category": "Professional Snapshot / Infrastructure",
+   "source": "matrix",
+   "evidence": 4
+  },
+  {
+   "name": "nexcess",
+   "category": "Professional Snapshot / Infrastructure",
+   "source": "matrix",
+   "evidence": 2
+  },
+  {
+   "name": "openstack",
+   "category": "Professional Snapshot / Infrastructure",
+   "source": "matrix",
+   "evidence": 18
+  },
+  {
+   "name": "rackspace",
+   "category": "Professional Snapshot / Infrastructure",
+   "source": "matrix",
+   "evidence": 15
+  },
+  {
+   "name": "upcloud",
+   "category": "Professional Snapshot / Infrastructure",
+   "source": "matrix",
+   "evidence": 4
+  },
+  {
+   "name": "aws emr",
+   "category": "Systems, Data & Security / Big Data & Labs",
+   "source": "matrix",
+   "evidence": 1
+  },
+  {
+   "name": "hadoop",
+   "category": "Systems, Data & Security / Big Data & Labs",
+   "source": "matrix",
+   "evidence": 1
+  },
+  {
+   "name": "hdfs",
+   "category": "Systems, Data & Security / Big Data & Labs",
+   "source": "matrix",
+   "evidence": 1
+  },
+  {
+   "name": "hiveql",
+   "category": "Systems, Data & Security / Big Data & Labs",
+   "source": "matrix",
+   "evidence": 1
+  },
+  {
+   "name": "redshift",
+   "category": "Systems, Data & Security / Big Data & Labs",
+   "source": "matrix",
+   "evidence": 2
+  },
+  {
+   "name": "s3",
+   "category": "Systems, Data & Security / Big Data & Labs",
+   "source": "matrix",
+   "evidence": 9
+  },
+  {
+   "name": "hubspot",
+   "category": "Systems, Data & Security / CRM Plugins & Integrations",
+   "source": "matrix",
+   "evidence": 1
+  },
+  {
+   "name": "jira",
+   "category": "Systems, Data & Security / CRM Plugins & Integrations",
+   "source": "matrix",
+   "evidence": 1
+  },
+  {
+   "name": "mailchimp",
+   "category": "Systems, Data & Security / CRM Plugins & Integrations",
+   "source": "matrix",
+   "evidence": 1
+  },
+  {
+   "name": "pagerduty",
+   "category": "Systems, Data & Security / CRM Plugins & Integrations",
+   "source": "matrix",
+   "evidence": 2
+  },
+  {
+   "name": "salesforce",
+   "category": "Systems, Data & Security / CRM Plugins & Integrations",
+   "source": "matrix",
+   "evidence": 4
+  },
+  {
+   "name": "zapier",
+   "category": "Systems, Data & Security / CRM Plugins & Integrations",
+   "source": "matrix",
+   "evidence": 1
+  },
+  {
+   "name": "zendesk",
+   "category": "Systems, Data & Security / CRM Plugins & Integrations",
+   "source": "matrix",
+   "evidence": 3
+  },
+  {
+   "name": "dynamodb",
+   "category": "Systems, Data & Security / Databases",
+   "source": "matrix",
+   "evidence": 3
+  },
+  {
+   "name": "elasticsearch",
+   "category": "Systems, Data & Security / Databases",
+   "source": "matrix",
+   "evidence": 10
+  },
+  {
+   "name": "galera",
+   "category": "Systems, Data & Security / Databases",
+   "source": "matrix",
+   "evidence": 5
+  },
+  {
+   "name": "mongodb",
+   "category": "Systems, Data & Security / Databases",
+   "source": "matrix",
+   "evidence": 14
+  },
+  {
+   "name": "mysql",
+   "category": "Systems, Data & Security / Databases",
+   "source": "matrix",
+   "evidence": 20
+  },
+  {
+   "name": "postgresql",
+   "category": "Systems, Data & Security / Databases",
+   "source": "matrix",
+   "evidence": 4
+  },
+  {
+   "name": "pxc",
+   "category": "Systems, Data & Security / Databases",
+   "source": "matrix",
+   "evidence": 5
+  },
+  {
+   "name": "redis",
+   "category": "Systems, Data & Security / Databases",
+   "source": "matrix",
+   "evidence": 12
+  },
+  {
+   "name": "datadog",
+   "category": "Systems, Data & Security / Security \u00b7 Networking \u00b7 Monitoring",
+   "source": "matrix",
+   "evidence": 1
+  },
+  {
+   "name": "grafana",
+   "category": "Systems, Data & Security / Security \u00b7 Networking \u00b7 Monitoring",
+   "source": "matrix",
+   "evidence": 1
+  },
+  {
+   "name": "metasploit",
+   "category": "Systems, Data & Security / Security \u00b7 Networking \u00b7 Monitoring",
+   "source": "matrix",
+   "evidence": 1
+  },
+  {
+   "name": "mtr",
+   "category": "Systems, Data & Security / Security \u00b7 Networking \u00b7 Monitoring",
+   "source": "matrix",
+   "evidence": 2
+  },
+  {
+   "name": "nagios",
+   "category": "Systems, Data & Security / Security \u00b7 Networking \u00b7 Monitoring",
+   "source": "matrix",
+   "evidence": 5
+  },
+  {
+   "name": "nessus",
+   "category": "Systems, Data & Security / Security \u00b7 Networking \u00b7 Monitoring",
+   "source": "matrix",
+   "evidence": 1
+  },
+  {
+   "name": "nmap",
+   "category": "Systems, Data & Security / Security \u00b7 Networking \u00b7 Monitoring",
+   "source": "matrix",
+   "evidence": 1
+  },
+  {
+   "name": "pmm",
+   "category": "Systems, Data & Security / Security \u00b7 Networking \u00b7 Monitoring",
+   "source": "matrix",
+   "evidence": 3
+  },
+  {
+   "name": "prometheus",
+   "category": "Systems, Data & Security / Security \u00b7 Networking \u00b7 Monitoring",
+   "source": "matrix",
+   "evidence": 1
+  },
+  {
+   "name": "splunk",
+   "category": "Systems, Data & Security / Security \u00b7 Networking \u00b7 Monitoring",
+   "source": "matrix",
+   "evidence": 1
+  },
+  {
+   "name": "traceroute",
+   "category": "Systems, Data & Security / Security \u00b7 Networking \u00b7 Monitoring",
+   "source": "matrix",
+   "evidence": 3
+  },
+  {
+   "name": "wireshark",
+   "category": "Systems, Data & Security / Security \u00b7 Networking \u00b7 Monitoring",
+   "source": "matrix",
+   "evidence": 2
+  },
+  {
+   "name": "lamp",
+   "category": "Systems, Data & Security / Stacks",
+   "source": "matrix",
+   "evidence": 4
+  },
+  {
+   "name": "lemp",
+   "category": "Systems, Data & Security / Stacks",
+   "source": "matrix",
+   "evidence": 4
+  },
+  {
+   "name": "mean",
+   "category": "Systems, Data & Security / Stacks",
+   "source": "matrix",
+   "evidence": 3
+  },
+  {
+   "name": "mern",
+   "category": "Systems, Data & Security / Stacks",
+   "source": "matrix",
+   "evidence": 2
+  }
+ ],
+ "credentials": [
+  {
+   "name": "Plesk Linux Expert Obsidian",
+   "issued": "Apr 2025",
+   "expires": "Apr 2027",
+   "credential_id": "",
+   "year": "",
+   "skills": [
+    "linux",
+    "plesk"
+   ]
+  },
+  {
+   "name": "Plesk Obsidian Professional Certification (OBS-2-PRO-EXAM)",
+   "issued": "Sep 2023",
+   "expires": "Sep 2025",
+   "credential_id": "OBS-2-PRO-EXAM",
+   "year": "",
+   "skills": [
+    "plesk"
+   ]
+  },
+  {
+   "name": "Cloud Tech Associate Advanced Disaster Recovery",
+   "issued": "",
+   "expires": "",
+   "credential_id": "C240499",
+   "year": "",
+   "skills": [
+    "disaster recovery"
+   ]
+  },
+  {
+   "name": "cPanel Professional Certification Exam (CPP)",
+   "issued": "Oct 2023",
+   "expires": "Sep 2025",
+   "credential_id": "88f4-69d0-e0e1-8399",
+   "year": "",
+   "skills": [
+    "cpanel"
+   ]
+  },
+  {
+   "name": "cPanel Certified Partner Accreditation (CPCP)",
+   "issued": "Oct 2023",
+   "expires": "Oct 2024",
+   "credential_id": "49ed-48f1-fdb6-3d68",
+   "year": "",
+   "skills": [
+    "cpanel"
+   ]
+  },
+  {
+   "name": "Imunify360 Certification Exam",
+   "issued": "Oct 2023",
+   "expires": "Oct 2024",
+   "credential_id": "cc4d-255b-af19-02e3",
+   "year": "",
+   "skills": [
+    "imunify360",
+    "security"
+   ]
+  },
+  {
+   "name": "cPanel & WHM System Administrator II (CWSA-2)",
+   "issued": "Oct 2023",
+   "expires": "Oct 2024",
+   "credential_id": "a137-f383-8242-e43f",
+   "year": "",
+   "skills": [
+    "cpanel"
+   ]
+  },
+  {
+   "name": "cPanel & WHM System Administrator I (CWSA-1)",
+   "issued": "Oct 2023",
+   "expires": "Oct 2024",
+   "credential_id": "606f-f420-8463-87a8",
+   "year": "",
+   "skills": [
+    "cpanel"
+   ]
+  },
+  {
+   "name": "WHM Administration Certification (CWA)",
+   "issued": "Oct 2023",
+   "expires": "Oct 2024",
+   "credential_id": "7a58-883c-f6f3-31ac",
+   "year": "",
+   "skills": [
+    "cpanel"
+   ]
+  },
+  {
+   "name": "University M102: MongoDB for DBAs (v3.2)",
+   "issued": "Dec 2014",
+   "expires": "",
+   "credential_id": "MDBo1yonbmgzv",
+   "year": "",
+   "skills": [
+    "mongodb",
+    "nosql"
+   ]
+  },
+  {
+   "name": "University M202: MongoDB Advanced Deployment & Operations (v4)",
+   "issued": "Apr 2015",
+   "expires": "",
+   "credential_id": "MDB6g7ufwacu1",
+   "year": "",
+   "skills": [
+    "mongodb",
+    "nosql"
+   ]
+  },
+  {
+   "name": "Certified Linux Administrator (LPIC-1)",
+   "issued": "",
+   "expires": "",
+   "credential_id": "LPI-101 997303855",
+   "year": "",
+   "skills": [
+    "linux"
+   ]
+  },
+  {
+   "name": "Red Hat Certified System Administrator (RHCSA)6",
+   "issued": "",
+   "expires": "",
+   "credential_id": "140-075-227",
+   "year": "",
+   "skills": [
+    "linux",
+    "rhel"
+   ]
+  },
+  {
+   "name": "Red Hat Certified Engineer (RHCE)6",
+   "issued": "",
+   "expires": "",
+   "credential_id": "140-075-227",
+   "year": "",
+   "skills": [
+    "linux",
+    "rhel"
+   ]
+  },
+  {
+   "name": "AWS Certified Solutions Architect - Associate (SAA-C03)",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2025",
+   "skills": [
+    "aws"
+   ]
+  },
+  {
+   "name": "AWS Certified Solutions Architect - Professional (SAP-C02)",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2025",
+   "skills": [
+    "aws"
+   ]
+  },
+  {
+   "name": "Network Concepts and Protocols",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2023",
+   "skills": [
+    "networking"
+   ]
+  },
+  {
+   "name": "Introduction to Enterprise Network Infrastructure",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2023",
+   "skills": [
+    "networking"
+   ]
+  },
+  {
+   "name": "Getting Started with Wireshark",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2023",
+   "skills": []
+  },
+  {
+   "name": "Network Security Basics",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2023",
+   "skills": [
+    "networking"
+   ]
+  },
+  {
+   "name": "Network Troubleshooting and Tools",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2023",
+   "skills": [
+    "networking"
+   ]
+  },
+  {
+   "name": "Network Management and Operations",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2023",
+   "skills": [
+    "networking"
+   ]
+  },
+  {
+   "name": "Network Layer Addressing and Subnetting",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2023",
+   "skills": [
+    "networking"
+   ]
+  },
+  {
+   "name": "Attacks, Threats, and Vulnerabilities for CompTIA Security+",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2023",
+   "skills": []
+  },
+  {
+   "name": "CompTIA Security+: Exam Briefing",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2023",
+   "skills": []
+  },
+  {
+   "name": "Ethernet Operation and Switch Configuration",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2022",
+   "skills": []
+  },
+  {
+   "name": "Configuring a Cisco Router",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2022",
+   "skills": []
+  },
+  {
+   "name": "SolarWinds: The Big Picture",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2022",
+   "skills": []
+  },
+  {
+   "name": "Introduction to Networking for Cisco CCNA",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2022",
+   "skills": [
+    "networking"
+   ]
+  },
+  {
+   "name": "AWS Certified Cloud Practitioner: Exam Prep",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2021",
+   "skills": [
+    "aws"
+   ]
+  },
+  {
+   "name": "Introduction to Security and Architecture on AWS",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2021",
+   "skills": []
+  },
+  {
+   "name": "Cisco CCNA: Introduction to Networking",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2015",
+   "skills": [
+    "networking"
+   ]
+  },
+  {
+   "name": "Red Hat Enterprise Linux 6 Booting and Runlevels",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2015",
+   "skills": [
+    "linux",
+    "rhel"
+   ]
+  },
+  {
+   "name": "Amazon Web Services (AWS) Fundamentals for System Administrators",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2015",
+   "skills": []
+  },
+  {
+   "name": "Docker Deep Dive",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2015",
+   "skills": []
+  },
+  {
+   "name": "Shell Scripting with Bash",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2015",
+   "skills": []
+  },
+  {
+   "name": "Introduction to the Bash Shell on Mac OS and Linux",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2015",
+   "skills": [
+    "linux"
+   ]
+  },
+  {
+   "name": "Big Data on Amazon Web Services",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2015",
+   "skills": []
+  },
+  {
+   "name": "The Python Developer's Toolkit",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2015",
+   "skills": []
+  },
+  {
+   "name": "Python Fundamentals",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2015",
+   "skills": []
+  },
+  {
+   "name": "System Center 2012 R2 Self Service Virtual Machine Provisioning",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2015",
+   "skills": []
+  },
+  {
+   "name": "Linux System Administration Fundamentals",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2015",
+   "skills": [
+    "linux"
+   ]
+  },
+  {
+   "name": "Careers in IT: How to Get Your First Job",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2015",
+   "skills": []
+  },
+  {
+   "name": "TCP/IP and Networking Fundamentals for IT Pros",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2014",
+   "skills": [
+    "networking"
+   ]
+  },
+  {
+   "name": "CompTIA Linux+ (2010 Objectives): Part 1",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2014",
+   "skills": [
+    "linux"
+   ]
+  },
+  {
+   "name": "SEO Fundamentals",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2014",
+   "skills": []
+  },
+  {
+   "name": "Introduction to OpenStack",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2014",
+   "skills": []
+  },
+  {
+   "name": "Scaling Up",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2014",
+   "skills": []
+  },
+  {
+   "name": "Installing and Configuring Apache Web Server",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2014",
+   "skills": []
+  },
+  {
+   "name": "HTTP Fundamentals",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2014",
+   "skills": []
+  },
+  {
+   "name": "CompTIA Network+ (2012 Objectives): Part 3",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2014",
+   "skills": [
+    "networking"
+   ]
+  },
+  {
+   "name": "CompTIA Network+ (2012 Objectives): Part 2",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2014",
+   "skills": [
+    "networking"
+   ]
+  },
+  {
+   "name": "CompTIA Storage+ Part 2: Network Storage & Data Replication",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2014",
+   "skills": [
+    "networking"
+   ]
+  },
+  {
+   "name": "CompTIA A+ Part 1: Computer Hardware",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2014",
+   "skills": []
+  },
+  {
+   "name": "Play by Play: Test-Driven PHP with Chris Hartjes",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2014",
+   "skills": []
+  },
+  {
+   "name": "Cisco CCNA: Initial Router and Switch Configuration",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2014",
+   "skills": []
+  },
+  {
+   "name": "Cloud Computing: The Big Picture",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2014",
+   "skills": []
+  },
+  {
+   "name": "CompTIA A+ Part 2: Networking",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2014",
+   "skills": [
+    "networking"
+   ]
+  },
+  {
+   "name": "Building Dynamic Websites with PHP and MySQL",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2014",
+   "skills": []
+  },
+  {
+   "name": "SSCP\u00ae: Monitoring and Analysis & Risk, Response, and Recovery (2012 Objectives)",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2014",
+   "skills": []
+  },
+  {
+   "name": "Introduction to CSS",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2014",
+   "skills": []
+  },
+  {
+   "name": "CompTIA A+ Part 3: Peripherals and Best Practices",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2014",
+   "skills": []
+  },
+  {
+   "name": "NoSQL: The Big Picture",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2014",
+   "skills": []
+  },
+  {
+   "name": "Understanding Distributed Version Control Systems",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2014",
+   "skills": []
+  },
+  {
+   "name": "Choose Your Own Adventure!",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2015",
+   "skills": []
+  },
+  {
+   "name": "Getting Started with Programming",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2015",
+   "skills": []
+  },
+  {
+   "name": "How to use the WePay API \u2013 Python",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2014",
+   "skills": []
+  },
+  {
+   "name": "How to use APIs with Python",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2014",
+   "skills": []
+  },
+  {
+   "name": "File Input/Output",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2014",
+   "skills": []
+  },
+  {
+   "name": "Classes",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2014",
+   "skills": []
+  },
+  {
+   "name": "Introduction to Classes",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2014",
+   "skills": []
+  },
+  {
+   "name": "Introduction to Bitwise Operators",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2014",
+   "skills": []
+  },
+  {
+   "name": "Advanced Topics in Python",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2014",
+   "skills": []
+  },
+  {
+   "name": "Exam Statistics",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2014",
+   "skills": []
+  },
+  {
+   "name": "Practice Makes Perfect",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2014",
+   "skills": []
+  },
+  {
+   "name": "Max Streak Count of 10",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2014",
+   "skills": []
+  },
+  {
+   "name": "Loops",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2014",
+   "skills": []
+  },
+  {
+   "name": "Battleship!",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2014",
+   "skills": []
+  },
+  {
+   "name": "Lists and Functions",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2014",
+   "skills": []
+  },
+  {
+   "name": "Advanced Arrays",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2014",
+   "skills": []
+  },
+  {
+   "name": "Object-Oriented PHP",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2014",
+   "skills": []
+  },
+  {
+   "name": "Objects in PHP",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2014",
+   "skills": []
+  },
+  {
+   "name": "Functions, Part II",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2014",
+   "skills": []
+  },
+  {
+   "name": "200 Exercises",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2014",
+   "skills": []
+  },
+  {
+   "name": "Functions, Part I",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2014",
+   "skills": []
+  },
+  {
+   "name": "While Loops in PHP",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2014",
+   "skills": []
+  },
+  {
+   "name": "Student Becomes the Teacher",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2014",
+   "skills": []
+  },
+  {
+   "name": "Max Streak Count of 5",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2014",
+   "skills": []
+  },
+  {
+   "name": "For Loops in PHP",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2014",
+   "skills": []
+  },
+  {
+   "name": "50 points earned in one day",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2014",
+   "skills": []
+  },
+  {
+   "name": "Arrays",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2014",
+   "skills": []
+  },
+  {
+   "name": "A Day at the Supermarket",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2014",
+   "skills": []
+  },
+  {
+   "name": "Control Flow: Switch",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2014",
+   "skills": []
+  },
+  {
+   "name": "Conditionals and Control Flow",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2014",
+   "skills": []
+  },
+  {
+   "name": "Introduction to PHP",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2014",
+   "skills": []
+  },
+  {
+   "name": "Python Lists and Dictionaries",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2014",
+   "skills": []
+  },
+  {
+   "name": "100 Exercises",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2014",
+   "skills": []
+  },
+  {
+   "name": "Taking a Vacation",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2014",
+   "skills": []
+  },
+  {
+   "name": "Functions",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2014",
+   "skills": []
+  },
+  {
+   "name": "Max Streak Count of 3",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2014",
+   "skills": []
+  },
+  {
+   "name": "PygLatin",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2014",
+   "skills": []
+  },
+  {
+   "name": "Conditionals & Control Flow",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2014",
+   "skills": []
+  },
+  {
+   "name": "50 Exercises",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2014",
+   "skills": []
+  },
+  {
+   "name": "Date and Time",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2014",
+   "skills": []
+  },
+  {
+   "name": "Strings & Console Output",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2014",
+   "skills": []
+  },
+  {
+   "name": "25 Exercises",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2014",
+   "skills": []
+  },
+  {
+   "name": "25 points earned in one day",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2014",
+   "skills": []
+  },
+  {
+   "name": "Tip Calculator",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2014",
+   "skills": []
+  },
+  {
+   "name": "Python Syntax",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2014",
+   "skills": []
+  },
+  {
+   "name": "10 Exercises",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2014",
+   "skills": []
+  },
+  {
+   "name": "First Lesson",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2014",
+   "skills": []
+  },
+  {
+   "name": "Max Streak Count of 1",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "2014",
+   "skills": []
+  },
+  {
+   "name": "WooCommerce WordPress E-Commerce Certification",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "Certs",
+   "skills": []
+  },
+  {
+   "name": "Docker & Kubernetes K8s \u2013 Complete Guide",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "Certs",
+   "skills": []
+  },
+  {
+   "name": "Master Magento Admin (Version 2)",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "Certs",
+   "skills": []
+  },
+  {
+   "name": "MySQL 8",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "Certs",
+   "skills": []
+  },
+  {
+   "name": "Magento Version 2 Development",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "Certs",
+   "skills": []
+  },
+  {
+   "name": "Mastering GitLab \u2013 CI/CD & DevOps",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "Certs",
+   "skills": []
+  },
+  {
+   "name": "Magento 2 Customization & Architecture",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "Certs",
+   "skills": []
+  },
+  {
+   "name": "AWS CCP",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "",
+   "skills": []
+  },
+  {
+   "name": "AWS Solutions Architect Associate  RHCE6",
+   "issued": "",
+   "expires": "",
+   "credential_id": "",
+   "year": "",
+   "skills": [
+    "aws",
+    "linux",
+    "rhel"
+   ]
+  }
+ ],
+ "experiences": [
+  {
+   "id": "shock-therapy-rebuilding-seasonal-remote1997-present",
+   "company": "Shock Therapy Rebuilding | Seasonal | Remote",
+   "dates": "1997 \u2013 Present",
+   "roles": [
+    "Product Manager \u00b7 Front-End Modernization & Rider Engagement",
+    "WordPress Developer & Digital Branding Specialist",
+    "Promotions Specialist & Parts Counter"
+   ],
+   "skills": [
+    "security",
+    "wordpress"
+   ]
+  },
+  {
+   "id": "upwork-freelance-remote-las-vegas-nevada-united-states-apr-2026-present",
+   "company": "Upwork \u00b7 Freelance \u00b7 Remote (Las Vegas, Nevada, United States)",
+   "dates": "Apr 2026 \u2013 Present",
+   "roles": [
+    "Full Stack AWS OpenStack Hybrid Cloud Data Ops Engineer"
+   ],
+   "skills": [
+    "aws",
+    "clustering",
+    "dynamodb",
+    "galera",
+    "magento",
+    "mongodb",
+    "mysql",
+    "nosql",
+    "openstack",
+    "postgresql",
+    "pxc",
+    "redis",
+    "redshift",
+    "s3",
+    "sql",
+    "woocommerce",
+    "wordpress"
+   ]
+  },
+  {
+   "id": "premium-technologies-ukfeb-2026-march-2026",
+   "company": "Premium Technologies UK",
+   "dates": "Feb 2026 \u2013 March 2026",
+   "roles": [
+    "Front-End Development & UX Design Intern"
+   ],
+   "skills": [
+    "security"
+   ]
+  },
+  {
+   "id": "liquid-web-nexcess-cloudsites-remote2021-2025",
+   "company": "Liquid Web \u00b7 Nexcess CloudSites \u00b7 Remote",
+   "dates": "2021 \u2013 2025",
+   "roles": [
+    "L3 Linux Managed Applications & Hosting Support Engineer"
+   ],
+   "skills": [
+    "cpanel",
+    "disaster recovery",
+    "docker",
+    "elasticsearch",
+    "galera",
+    "lamp",
+    "lemp",
+    "linux",
+    "liquid web",
+    "magento",
+    "mongodb",
+    "mysql",
+    "networking",
+    "nexcess",
+    "node.js",
+    "openstack",
+    "php",
+    "plesk",
+    "postgresql",
+    "redis",
+    "salesforce",
+    "security",
+    "woocommerce",
+    "wordpress"
+   ]
+  },
+  {
+   "id": "upcloud-remote2019-2020",
+   "company": "UpCloud \u00b7 Remote",
+   "dates": "2019 \u2013 2020",
+   "roles": [
+    "Technical Support Engineer (IaaS)"
+   ],
+   "skills": [
+    "ansible",
+    "cpanel",
+    "disaster recovery",
+    "docker",
+    "kubernetes",
+    "lemp",
+    "linux",
+    "magento",
+    "mongodb",
+    "mtr",
+    "mysql",
+    "networking",
+    "node.js",
+    "plesk",
+    "security",
+    "terraform",
+    "traceroute",
+    "upcloud",
+    "woocommerce",
+    "wordpress"
+   ]
+  },
+  {
+   "id": "national-specialties-llc-contract-hybrid-saginaw-mi-seattle-tacoma-lakewood-wa-j",
+   "company": "National Specialties LLC \u00b7 Contract \u00b7 Hybrid (Saginaw, MI / Seattle\u2013Tacoma\u2013Lakewood, WA)",
+   "dates": "Jul 2018 \u2013 Nov 2018",
+   "roles": [
+    "AWS Full Stack Developer \u00b7 Desktop Support \u00b7 Graphic Design & Promotions"
+   ],
+   "skills": [
+    "aws",
+    "disaster recovery",
+    "mysql",
+    "php",
+    "redis",
+    "s3",
+    "woocommerce",
+    "wordpress",
+    "zendesk"
+   ]
+  },
+  {
+   "id": "percona-remote2016",
+   "company": "Percona \u00b7 Remote",
+   "dates": "2016",
+   "roles": [
+    "Associate DBA Technical Services Engineer"
+   ],
+   "skills": [
+    "ansible",
+    "aws",
+    "clustering",
+    "disaster recovery",
+    "mongodb",
+    "mysql",
+    "nagios",
+    "pagerduty",
+    "pmm",
+    "pxc",
+    "s3",
+    "security",
+    "zendesk"
+   ]
+  },
+  {
+   "id": "craftartedu-com-contract-remote-tacoma-wa-2015-2016",
+   "company": "craftartedu.com\u00b7 Contract \u00b7 Remote (Tacoma, WA)",
+   "dates": "2015 \u2013 2016",
+   "roles": [
+    "AWS Magento E-Commerce Full Stack Developer"
+   ],
+   "skills": [
+    "aws",
+    "linux",
+    "magento",
+    "security"
+   ]
+  },
+  {
+   "id": "sydneykrey-contract-remote-tacoma-wa-2014-2016",
+   "company": "SydneyKrey\u00b7 Contract \u00b7 Remote (Tacoma, WA)",
+   "dates": "2014 \u2013 2016",
+   "roles": [
+    "AWS WooCommerce WordPress Full Stack Developer"
+   ],
+   "skills": [
+    "aws",
+    "elasticsearch",
+    "mysql",
+    "php",
+    "redis",
+    "s3",
+    "security",
+    "woocommerce",
+    "wordpress"
+   ]
+  },
+  {
+   "id": "rackspace-technology-full-time-hybrid-san-antonio-tx-2014-2016",
+   "company": "Rackspace Technology \u00b7 Full-time \u00b7 Hybrid (San Antonio, TX)",
+   "dates": "2014 \u2013 2016",
+   "roles": [
+    "RHCE Linux Administrator / Cloud Ops / Infrastructure"
+   ],
+   "skills": [
+    "ansible",
+    "aws",
+    "clustering",
+    "disaster recovery",
+    "docker",
+    "elasticsearch",
+    "galera",
+    "lamp",
+    "lemp",
+    "linux",
+    "magento",
+    "mean",
+    "mern",
+    "mysql",
+    "nagios",
+    "networking",
+    "openstack",
+    "php",
+    "plesk",
+    "pxc",
+    "rackspace",
+    "redis",
+    "rhel",
+    "security",
+    "traceroute",
+    "wordpress"
+   ]
+  },
+  {
+   "id": "string-theory-software-inc-startup-michigan2013-2013",
+   "company": "String Theory Software Inc. \u00b7 Startup \u00b7 Michigan",
+   "dates": "2013 \u2013 2013",
+   "roles": [
+    "Co-Founder & Full-Stack Developer"
+   ],
+   "skills": [
+    "mysql",
+    "php"
+   ]
+  },
+  {
+   "id": "private-ragnarok-online-servers-freelance-remote2005-2013",
+   "company": "Private Ragnarok Online Servers \u00b7 Freelance \u00b7 Remote",
+   "dates": "2005 \u2013 2013",
+   "roles": [
+    "Game Server Administrator & Developer"
+   ],
+   "skills": [
+    "mysql",
+    "security"
+   ]
+  },
+  {
+   "id": "hot-topic-lansing-michigan-part-time-retail2006-2007",
+   "company": "Hot Topic \u00b7 Lansing, Michigan \u00b7 Part-Time Retail",
+   "dates": "2006 \u2013 2007",
+   "roles": [
+    "Retail Sales Associate \u00b7 Alternative Fashion & Pop Culture Merchandising"
+   ],
+   "skills": []
+  }
+ ],
+ "jobs": [
+  {
+   "id": "j04",
+   "title": "L3 Managed Hosting Engineer",
+   "company": "HostWorks",
+   "location": "Remote",
+   "ats_score": 100.0,
+   "matched": [
+    {
+     "skill": "linux",
+     "weight": 1.0
+    },
+    {
+     "skill": "cpanel",
+     "weight": 1.0
+    },
+    {
+     "skill": "plesk",
+     "weight": 1.0
+    },
+    {
+     "skill": "nagios",
+     "weight": 1.0
+    },
+    {
+     "skill": "zendesk",
+     "weight": 1.0
+    }
+   ],
+   "missing": [],
+   "strict_match": true,
+   "outlier": false
+  },
+  {
+   "id": "j10",
+   "title": "Security Solutions Engineer",
+   "company": "Sentinel Networks",
+   "location": "Remote",
+   "ats_score": 100.0,
+   "matched": [
+    {
+     "skill": "nessus",
+     "weight": 1.0
+    },
+    {
+     "skill": "splunk",
+     "weight": 1.0
+    },
+    {
+     "skill": "wireshark",
+     "weight": 1.0
+    },
+    {
+     "skill": "nmap",
+     "weight": 1.0
+    },
+    {
+     "skill": "metasploit",
+     "weight": 1.0
+    }
+   ],
+   "missing": [],
+   "strict_match": true,
+   "outlier": false
+  },
+  {
+   "id": "j01",
+   "title": "Solutions Architect, Cloud Hosting",
+   "company": "Northwind Cloud",
+   "location": "Remote",
+   "ats_score": 94.3,
+   "matched": [
+    {
+     "skill": "aws",
+     "weight": 1.0
+    },
+    {
+     "skill": "linux",
+     "weight": 1.0
+    },
+    {
+     "skill": "mysql",
+     "weight": 1.0
+    },
+    {
+     "skill": "terraform",
+     "weight": 0.6
+    },
+    {
+     "skill": "salesforce",
+     "weight": 1.0
+    }
+   ],
+   "missing": [],
+   "strict_match": true,
+   "outlier": false
+  },
+  {
+   "id": "j03",
+   "title": "Senior Database Support Engineer",
+   "company": "OpenDB Services",
+   "location": "Remote",
+   "ats_score": 94.3,
+   "matched": [
+    {
+     "skill": "mysql",
+     "weight": 1.0
+    },
+    {
+     "skill": "postgresql",
+     "weight": 1.0
+    },
+    {
+     "skill": "mongodb",
+     "weight": 1.0
+    },
+    {
+     "skill": "galera",
+     "weight": 1.0
+    },
+    {
+     "skill": "ansible",
+     "weight": 0.6
+    }
+   ],
+   "missing": [],
+   "strict_match": true,
+   "outlier": false
+  },
+  {
+   "id": "j02",
+   "title": "Technical Sales Engineer",
+   "company": "Observability Cloud",
+   "location": "Remote",
+   "ats_score": 93.3,
+   "matched": [
+    {
+     "skill": "datadog",
+     "weight": 1.0
+    },
+    {
+     "skill": "grafana",
+     "weight": 1.0
+    },
+    {
+     "skill": "prometheus",
+     "weight": 1.0
+    },
+    {
+     "skill": "salesforce",
+     "weight": 1.0
+    },
+    {
+     "skill": "kubernetes",
+     "weight": 0.6
+    }
+   ],
+   "missing": [],
+   "strict_match": true,
+   "outlier": false
+  },
+  {
+   "id": "j06",
+   "title": "Hybrid Cloud Engineer",
+   "company": "Stratus Systems",
+   "location": "Remote",
+   "ats_score": 88.6,
+   "matched": [
+    {
+     "skill": "openstack",
+     "weight": 1.0
+    },
+    {
+     "skill": "aws",
+     "weight": 1.0
+    },
+    {
+     "skill": "linux",
+     "weight": 1.0
+    },
+    {
+     "skill": "ansible",
+     "weight": 0.6
+    },
+    {
+     "skill": "docker",
+     "weight": 0.6
+    }
+   ],
+   "missing": [],
+   "strict_match": true,
+   "outlier": false
+  },
+  {
+   "id": "j05",
+   "title": "Customer Success Engineer",
+   "company": "SaaSline",
+   "location": "Las Vegas, NV",
+   "ats_score": 85.7,
+   "matched": [
+    {
+     "skill": "zendesk",
+     "weight": 1.0
+    },
+    {
+     "skill": "hubspot",
+     "weight": 1.0
+    },
+    {
+     "skill": "salesforce",
+     "weight": 1.0
+    },
+    {
+     "skill": "jira",
+     "weight": 1.0
+    },
+    {
+     "skill": "zapier",
+     "weight": 1.0
+    }
+   ],
+   "missing": [
+    {
+     "skill": "gainsight",
+     "critical": false
+    }
+   ],
+   "strict_match": false,
+   "outlier": true
+  },
+  {
+   "id": "j08",
+   "title": "Data Platform Support Engineer",
+   "company": "BigTable Labs",
+   "location": "Remote",
+   "ats_score": 83.3,
+   "matched": [
+    {
+     "skill": "hadoop",
+     "weight": 1.0
+    },
+    {
+     "skill": "redshift",
+     "weight": 1.0
+    },
+    {
+     "skill": "s3",
+     "weight": 1.0
+    },
+    {
+     "skill": "elasticsearch",
+     "weight": 1.0
+    }
+   ],
+   "missing": [
+    {
+     "skill": "spark",
+     "critical": false
+    }
+   ],
+   "strict_match": false,
+   "outlier": true
+  },
+  {
+   "id": "j12",
+   "title": "Event Technology Solutions Consultant",
+   "company": "LiveStage Tech",
+   "location": "Las Vegas, NV",
+   "ats_score": 80.0,
+   "matched": [
+    {
+     "skill": "hubspot",
+     "weight": 1.0
+    },
+    {
+     "skill": "salesforce",
+     "weight": 1.0
+    },
+    {
+     "skill": "zapier",
+     "weight": 1.0
+    },
+    {
+     "skill": "aws",
+     "weight": 1.0
+    }
+   ],
+   "missing": [
+    {
+     "skill": "cvent",
+     "critical": false
+    }
+   ],
+   "strict_match": false,
+   "outlier": true
+  },
+  {
+   "id": "j07",
+   "title": "E-commerce Platform Engineer",
+   "company": "CartCraft",
+   "location": "Remote",
+   "ats_score": 71.4,
+   "matched": [
+    {
+     "skill": "magento",
+     "weight": 0.6
+    },
+    {
+     "skill": "woocommerce",
+     "weight": 0.6
+    },
+    {
+     "skill": "wordpress",
+     "weight": 0.6
+    },
+    {
+     "skill": "mysql",
+     "weight": 1.0
+    },
+    {
+     "skill": "aws",
+     "weight": 1.0
+    },
+    {
+     "skill": "php",
+     "weight": 0.6
+    }
+   ],
+   "missing": [],
+   "strict_match": true,
+   "outlier": false
+  },
+  {
+   "id": "j09",
+   "title": "Site Reliability Engineer",
+   "company": "Observa",
+   "location": "Remote",
+   "ats_score": 67.5,
+   "matched": [
+    {
+     "skill": "linux",
+     "weight": 1.0
+    },
+    {
+     "skill": "kubernetes",
+     "weight": 0.6
+    },
+    {
+     "skill": "terraform",
+     "weight": 0.6
+    },
+    {
+     "skill": "prometheus",
+     "weight": 1.0
+    }
+   ],
+   "missing": [
+    {
+     "skill": "go",
+     "critical": false
+    }
+   ],
+   "strict_match": false,
+   "outlier": true
+  },
+  {
+   "id": "j11",
+   "title": "Full-Stack Developer (MERN)",
+   "company": "Brightside Apps",
+   "location": "Remote",
+   "ats_score": 60.0,
+   "matched": [
+    {
+     "skill": "mongodb",
+     "weight": 1.0
+    },
+    {
+     "skill": "node.js",
+     "weight": 0.6
+    },
+    {
+     "skill": "redis",
+     "weight": 1.0
+    }
+   ],
+   "missing": [
+    {
+     "skill": "react",
+     "critical": true
+    }
+   ],
+   "strict_match": false,
+   "outlier": false
+  }
+ ],
+ "recommendations": [
+  {
+   "id": "j05",
+   "title": "Customer Success Engineer",
+   "company": "SaaSline",
+   "location": "Las Vegas, NV",
+   "ats_score": 85.7,
+   "matched": [
+    {
+     "skill": "zendesk",
+     "weight": 1.0
+    },
+    {
+     "skill": "hubspot",
+     "weight": 1.0
+    },
+    {
+     "skill": "salesforce",
+     "weight": 1.0
+    },
+    {
+     "skill": "jira",
+     "weight": 1.0
+    },
+    {
+     "skill": "zapier",
+     "weight": 1.0
+    }
+   ],
+   "missing": [
+    {
+     "skill": "gainsight",
+     "critical": false
+    }
+   ],
+   "strict_match": false,
+   "outlier": true
+  },
+  {
+   "id": "j08",
+   "title": "Data Platform Support Engineer",
+   "company": "BigTable Labs",
+   "location": "Remote",
+   "ats_score": 83.3,
+   "matched": [
+    {
+     "skill": "hadoop",
+     "weight": 1.0
+    },
+    {
+     "skill": "redshift",
+     "weight": 1.0
+    },
+    {
+     "skill": "s3",
+     "weight": 1.0
+    },
+    {
+     "skill": "elasticsearch",
+     "weight": 1.0
+    }
+   ],
+   "missing": [
+    {
+     "skill": "spark",
+     "critical": false
+    }
+   ],
+   "strict_match": false,
+   "outlier": true
+  },
+  {
+   "id": "j12",
+   "title": "Event Technology Solutions Consultant",
+   "company": "LiveStage Tech",
+   "location": "Las Vegas, NV",
+   "ats_score": 80.0,
+   "matched": [
+    {
+     "skill": "hubspot",
+     "weight": 1.0
+    },
+    {
+     "skill": "salesforce",
+     "weight": 1.0
+    },
+    {
+     "skill": "zapier",
+     "weight": 1.0
+    },
+    {
+     "skill": "aws",
+     "weight": 1.0
+    }
+   ],
+   "missing": [
+    {
+     "skill": "cvent",
+     "critical": false
+    }
+   ],
+   "strict_match": false,
+   "outlier": true
+  },
+  {
+   "id": "j09",
+   "title": "Site Reliability Engineer",
+   "company": "Observa",
+   "location": "Remote",
+   "ats_score": 67.5,
+   "matched": [
+    {
+     "skill": "linux",
+     "weight": 1.0
+    },
+    {
+     "skill": "kubernetes",
+     "weight": 0.6
+    },
+    {
+     "skill": "terraform",
+     "weight": 0.6
+    },
+    {
+     "skill": "prometheus",
+     "weight": 1.0
+    }
+   ],
+   "missing": [
+    {
+     "skill": "go",
+     "critical": false
+    }
+   ],
+   "strict_match": false,
+   "outlier": true
+  }
+ ]
+}
